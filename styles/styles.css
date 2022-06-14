@@ -1,0 +1,83 @@
+* {
+  /* box-sizing: border-box; */
+  font-family: 'Roboto';
+  }
+  body{
+    background-color: #E5E5E5;    ;
+}
+header {
+  background-color: #222222;
+  display: flex;
+  justify-content: space-between;
+}
+header nav ul li{
+  display:inline-block;
+  margin:5px;
+  padding-top: 12px;
+  color: #fff;
+  }
+
+main{
+  display: flex;
+  justify-content:center;
+  flex-flow:nowrap;
+  }
+h3{
+  color: red;
+  font-weight: bold;
+  font-size: xx-large;
+}
+h3 span{
+  color:white;
+}
+.caja1{
+  position: relative;
+  text-align: center;
+  background-image: url("../assets/delivery.jpg");
+  background-size: cover;
+  margin-top:20px;
+  margin-bottom:20px;
+  margin-left: 20px;
+  width: 50%;
+  }
+h3 .podio{position: relative;
+       ;} 
+
+.caja2{
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  align-items:flex-start;
+  width: 50%;
+  margin-top:20px;
+  margin-bottom:20px;
+  margin-right:20px;
+  }
+.containerlist{
+  position:relative;
+  width:400px;
+  font-size:xx-large;
+  margin-left:20px;
+  }
+  
+  .imagencaja2 img{
+    align-self: center;
+    position: relative;
+    width:200px;
+    margin-right:20px;
+  }
+
+  .pizzacayendo{
+    position: relative;
+    width: ;
+  }
+
+footer {
+  display: flex;
+  background-color: #222222;
+  justify-content: space-between;
+  color: #fff;
+  position: relative;
+}
+
